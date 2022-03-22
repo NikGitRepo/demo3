@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="N:\basicjs\imagess\slogo.jpg" type="image/x-icon" sizes='16*16'>
+    <link rel="stylesheet" href="N:\basicjs\csssheets\two.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jscript two</title>
+</head>
+<header><h3>Jscript Demo2</h3></header>
+<body>
+        <p>External jscript</p>
+        <div class="arth">
+        <p>enter the two numbers for arthimetci functions.</p>
+        <form>
+            <label for="valuex" >value of X</label>
+            <input type="text" id="x1" name="valuex">
+            <label for="valuey" >value of Y</label>
+            <input type="text" id="y1" name="valuey"><br>
+            <label for="arthopt" >choose  operation:</label>
+            <input type="radio" name="artopt" id="a1"><label for="add">Addition</label>
+            <input type="radio" name="artopt" id="s1"><label for="sub">Subtraction</label>
+            <input type="radio" name="artopt" id="m1"><label for="mul">multiplication</label>
+            <input type="radio" name="artopt" id="d1"><label for="div">division</label>            
+        </form>
+        <button type="button" onclick="addfun()">Result</button>
+        <p id = "res"></p>
+        </div><hr>
+        <p>Get the required car details :</p>
+        <button type="button" onclick="ary()">Get Deatils</button><br>
+        <p id="cr1"></p>
+        <p id="cr2"></p>
+        <p id="cr3"></p>
+        <p id="cr4"></p>
+        <br><hr>
+        <form>
+            <label for="newown">Owner</label><input type="text" name="newo" id="nown">
+            <label for="ncnm">Carname</label><input type="text" name="ncnm" id="ncnm">
+            <label for="ncol">Color</label><input type="text" name="ncol" id="ncol">
+            <label for="nreg">Reg num</label><input type="text" name="nreg" id="nreg">
+            </form><br>
+            <button type="button" onclick="addobj()">Add new</button><hr>
+        <div class="chng">
+        <form>
+            <label for="change" >choose  what to change :</label>
+            <input type="radio" name="carchg" id="car1"><label for="owner">Owner</label>
+            <input type="radio" name="carchg" id="car2"><label for="sub">Carname</label>
+            <input type="radio" name="carchg" id="car3"><label for="mul">color</label>
+            <input type="radio" name="carchg" id="car4"><label for="div">RegNum</label> <br>   
+            <label for="changedt">Required change :</label>
+            <input type="text" id="xchange" name="changed">
+            <label for="position" >serialno:</label>
+            <input type="text" id="pos1" name="position">
+        </form>
+        <button type="button" onclick="change()">Change details</button>
+        <p id="changer"></p>
+        </div>
+        <p id="xp"></p>
+        <p id="ocr1"></p>
+        <hr>
+        <p>For removing the car details please enter the serial number</p>
+        <form>
+        <label for="position" >serialno:</label>
+        <input type="text" id="rem1" name="position">
+        </form><br>
+        <button type="button" onclick="remobj()">Remove</button>
+    
+
+        <script src="N:\basicjs\jscripts\two.js"></script>
+
+</body>
+</html>
+    
